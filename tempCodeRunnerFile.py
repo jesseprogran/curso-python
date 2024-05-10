@@ -1,4 +1,2 @@
-a = 4
-# b = 5
-# r = a + b
-# print(r)
+for numero in range(1,101):
+#     print(f'o numero é {numero}')
