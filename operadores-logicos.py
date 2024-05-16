@@ -17,7 +17,18 @@
 
 #NOT ---> ELE IVERTA A CONDIÇÃO SE FOR VERDADEIRA (TRUE) SERÁ (FALSE) E VICE VERSA
 
-temDinheiro = False
-temDinheiro = not temDinheiro
-msg = 'Tem dinheiro? ' + str(temDinheiro)
-print(msg)
+# temDinheiro = False
+# temDinheiro = not temDinheiro
+# msg = 'Tem dinheiro? ' + str(temDinheiro)
+# print(msg)
+
+
+
+verificacao = int(input('Digite um número de 0 a 100: '))
+
+if verificacao == 50:
+    print(f'O numero {verificacao} é igual a 50.')
+elif verificacao >= 48:
+    print(f'O numero {verificacao} chegou perto do 50')
+else:
+    print(f'não houve nenhuma proximidade com o numeros')        
