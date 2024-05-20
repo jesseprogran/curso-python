@@ -15,8 +15,26 @@
 #      print(x)
 
 
-times_serie_a = ('São Paulo','Palmeira','Flamengo','Cruzeiro','Bahia')
-for times in times_serie_a:
-    if times == 'Cruzeiro':
-        continue
-    print(times)
+# times_serie_a = ('São Paulo','Palmeira','Flamengo','Cruzeiro','Bahia')
+# for times in times_serie_a:
+#     if times == 'Cruzeiro':
+#         continue
+#     print(times)
+
+
+notas = []
+
+while True:
+    nota = int(input('Digite uma nota ou -1 para sair: '))
+    if nota == -1:
+        break
+    notas.append(nota)
+
+
+soma = 0
+
+for i in notas:
+    soma = soma + i
+
+media = soma / len(notas)
+print(media)     
